@@ -17,4 +17,4 @@ header{height:70px;position:fixed;z-index:20;inset:0 0 auto;display:flex;align-i
 .whatsapp-btn{margin:0 8px 18px 0;min-width:270px;background:var(--a)!important;color:#fff!important;border:1px solid var(--a)!important;box-shadow:0 0 22px color-mix(in srgb,var(--a) 28%,transparent);}
 .logo.amys-logo{transform:none;transform-origin:center center;}
 @media(max-width:700px){.logo.amys-logo{transform:none;transform-origin:center center}.whatsapp-btn{width:100%;margin-right:0}}
-.logo{position:relative;left:-8px}
+.logo{position:relative;left:-10px}
