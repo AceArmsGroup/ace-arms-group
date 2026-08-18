@@ -31,9 +31,9 @@ const DATA={
     ]
   },
   amys:{
-    name:"Amys Arms",city:"UMZINTO",logo:"assets/amys-arms-logo-blue.png",
-    a:"#168cff",a2:"#0b35c9",ey:"Amys Arms • UMZINTO",
-    tag:"A local Amys Arms destination in Umzinto.",
+    name:"AMYS ARMS",city:"UMZINTO",logo:"assets/amys-arms-logo-blue.png",
+    a:"#168cff",a2:"#0b35c9",ey:"AMYS ARMS • UMZINTO",
+    tag:"Your local Amys Arms destination in Umzinto.",
     intro:"Contact the Umzinto team directly.",
     address:"Retailers Building\nMain Road\nUmzinto\nSouth Africa",
     phone:"084 786 2028",email:"amysnx@gmail.com",
