@@ -9,10 +9,10 @@ const DATA={
     whatsapp:"https://chat.whatsapp.com/JoDUwFYPNj22TsoCuwGWq5?s=cl&p=a&ilr=0",
     whatsappLabel:"JOIN DUNDEE WHATSAPP GROUP",
     contacts:[
-      ["01","DUNDEE","034 212 1379","+27342121379"],
-      ["02","DUNDEE","076 932 9594","+27769329594"],
-      ["03","DUNDEE","081 049 8440","+27810498440"],
-      ["04","DUNDEE","068 677 1499","+27686771499"]
+      ["01","RECEPTION","034 212 1379","+27342121379"],
+      ["02","SALES","076 932 9594","+27769329594"],
+      ["03","SALES","081 049 8440","+27810498440"],
+      ["04","SALES","068 677 1499","+27686771499"]
     ]
   },
   newcastle:{
@@ -25,24 +25,24 @@ const DATA={
     whatsapp:"https://chat.whatsapp.com/JoDUwFYPNj22TsoCuwGWq5?s=cl&p=a&ilr=0",
     whatsappLabel:"JOIN NEWCASTLE WHATSAPP GROUP",
     contacts:[
-      ["01","NEWCASTLE","072 925 5576","+27729255576"],
-      ["02","NEWCASTLE","081 049 8440","+27810498440"],
-      ["03","NEWCASTLE","068 677 1499","+27686771499"]
+      ["01","SALES","072 925 5576","+27729255576"],
+      ["02","SALES","081 049 8440","+27810498440"],
+      ["03","SALES","068 677 1499","+27686771499"]
     ]
   },
   amys:{
     name:"Amys Arms",city:"UMZINTO",logo:"assets/amys-arms-logo-blue.png",
     a:"#168cff",a2:"#0b35c9",ey:"Amys Arms • UMZINTO",
     tag:"A local Amys Arms destination in Umzinto.",
-    intro:"Contact Yusuf, Zaakir or Abu directly.",
+    intro:"Contact the Umzinto team directly.",
     address:"Retailers Building\nMain Road\nUmzinto\nSouth Africa",
     phone:"084 786 2028",email:"amysnx@gmail.com",
     whatsapp:"https://chat.whatsapp.com/DIQheNQyWlN6WB4FvQg0se",
     whatsappLabel:"JOIN UMZINTO WHATSAPP GROUP",
     contacts:[
-      ["01","YUSUF","084 786 2028","+27847862028"],
-      ["02","ZAAKIR","071 092 7862","+27710927862"],
-      ["03","ABU","074 090 1165","+27740901165"]
+      ["01","SALES","084 786 2028","+27847862028"],
+      ["02","SALES","071 092 7862","+27710927862"],
+      ["03","SALES","074 090 1165","+27740901165"]
     ]
   }
 };
