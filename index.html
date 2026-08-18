@@ -1,17 +1,28 @@
 <!doctype html>
 <html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Ace Arms Dundee, Ace Arms Newcastle and AMYS ARMS Umzinto">
-<title>Ace Arms | Dundee • Newcastle • AMYS ARMS</title>
+<meta name="description" content="Ace Arms Dundee, Ace Arms Newcastle and Amys Arms Umzinto">
+<title>Ace Arms | Dundee • Newcastle • Amys Arms</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css"></head>
+<link rel="stylesheet" href="style.css"><style>
+.whatsapp-btn{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  margin:0 0 1.25rem;
+  width:min(100%,420px);
+  text-decoration:none;
+}
+.whatsapp-btn::before{content:"◉";margin-right:.55rem;font-size:1.05em}
+.logo.amys-logo{transform:scale(.88)}
+</style></head>
 <body>
 <header><a class="brand" href="#">ACE<small>ARMS</small></a><b id="topCity">DUNDEE</b></header>
 <nav class="tabs">
 <button class="active" data-key="dundee">01 <strong>ACE ARMS</strong><small>DUNDEE</small></button>
 <button data-key="newcastle">02 <strong>ACE ARMS</strong><small>NEWCASTLE</small></button>
-<button data-key="amys">03 <strong>AMYS ARMS</strong><small>UMZINTO</small></button>
+<button data-key="amys">03 <strong>Amys Arms</strong><small>UMZINTO</small></button>
 </nav>
 <main>
 <section class="hero">
@@ -22,6 +33,7 @@
 </section>
 <section class="quick"><div><span>LOCATION</span><b id="qLocation"></b></div><div><span>PHONE</span><b id="qPhone"></b></div><div><span>EMAIL</span><b id="qEmail"></b></div></section>
 <section id="contact" class="section"><p class="kicker">CONTACT / <span id="sCity"></span></p><h2>GET IN <em>TOUCH</em></h2><p id="intro" class="muted"></p>
+<a class="btn whatsapp-btn" id="whatsapp" href="#" target="_blank" rel="noopener">JOIN WHATSAPP GROUP</a>
 <div id="contacts" class="contacts"></div><div class="details"><div><span>ADDRESS</span><strong id="address"></strong><a id="map" target="_blank">OPEN IN MAPS ↗</a></div><div><span>EMAIL</span><strong id="email"></strong><a id="mail">SEND EMAIL ↗</a></div></div></section>
 <section class="section location"><p class="kicker">VISIT / <span id="vCity"></span></p><div class="location-box"><div><small>SOUTH AFRICA • KWAZULU-NATAL</small><h2 id="vHeading"></h2><p id="vAddress"></p><a class="btn" id="directions" target="_blank">GET DIRECTIONS</a></div><div class="location-mark"><span>LOCATED IN</span><b id="markCity"></b></div></div></section>
 
