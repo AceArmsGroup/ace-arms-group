@@ -6,6 +6,8 @@ const DATA={
     intro:"Contact the Dundee team directly.",
     address:"52 Smith Street\nDundee, KZN\nSouth Africa",
     phone:"034 212 1379",email:"arms@acedundee.co.za",
+    whatsapp:"https://chat.whatsapp.com/JoDUwFYPNj22TsoCuwGWq5?s=cl&p=a&ilr=0",
+    whatsappLabel:"JOIN DUNDEE WHATSAPP GROUP",
     contacts:[
       ["01","DUNDEE","034 212 1379","+27342121379"],
       ["02","DUNDEE","076 932 9594","+27769329594"],
@@ -20,6 +22,8 @@ const DATA={
     intro:"Contact the Newcastle team directly.",
     address:"64 Scott St.\nNewcastle CBD, KZN\nSouth Africa",
     phone:"072 925 5576",email:"ace.arms.nn@gmail.com",
+    whatsapp:"https://chat.whatsapp.com/JoDUwFYPNj22TsoCuwGWq5?s=cl&p=a&ilr=0",
+    whatsappLabel:"JOIN NEWCASTLE WHATSAPP GROUP",
     contacts:[
       ["01","NEWCASTLE","072 925 5576","+27729255576"],
       ["02","NEWCASTLE","081 049 8440","+27810498440"],
@@ -33,6 +37,8 @@ const DATA={
     intro:"Contact Yusuf, Zaakir or Abu directly.",
     address:"Retailers Building\nMain Road\nUmzinto\nSouth Africa",
     phone:"084 786 2028",email:"amysnx@gmail.com",
+    whatsapp:"https://chat.whatsapp.com/DIQheNQyWlN6WB4FvQg0se",
+    whatsappLabel:"JOIN UMZINTO WHATSAPP GROUP",
     contacts:[
       ["01","YUSUF","084 786 2028","+27847862028"],
       ["02","ZAAKIR","071 092 7862","+27710927862"],
@@ -74,6 +80,9 @@ function load(k){
   const map="https://www.google.com/maps/search/?api=1&query="+q;
   $("map").href=map;
   $("directions").href=map;
+
+  $("whatsapp").href=d.whatsapp;
+  $("whatsapp").textContent=d.whatsappLabel;
 
   $("contacts").innerHTML=d.contacts.map(c=>
     `<a class="contact" href="tel:${c[3]}">
